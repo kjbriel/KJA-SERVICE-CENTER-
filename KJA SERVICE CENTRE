@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJA Service Centre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #007f00;
+        }
+        .products img {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact, .location {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KJA SERVICE CENTRE</h1>
+    </header>
+    <div class="content">
+        <div class="section about">
+            <h2>About Us</h2>
+            <p>Welcome to KJA Service Centre. We specialize in fixing and selling high-quality machines including grinders, brushcutters, chainsaws, and lawnmowers. Our experienced team is dedicated to providing exceptional service and ensuring your equipment is in top condition.</p>
+        </div>
+        <div class="section services">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of services to meet your needs:</p>
+            <ul>
+                <li>Machine Repairs</li>
+                <li>Machine Sales</li>
+                <li>Maintenance Services</li>
+                <li>Spare Parts Availability</li>
+            </ul>
+        </div>
+        <div class="section products">
+            <h2>Our Products</h2>
+            <img src="chainsaw.jpg" alt="Chainsaw">
+            <img src="brushcutter.jpg" alt="Brushcutter">
+            <img src="grinder.jpg" alt="Grinder">
+            <img src="lawnmower.jpg" alt="Lawnmower">
+        </div>
+        <div class="section location">
+            <h2>Our Location</h2>
+            <p>We are located at 123 Machine Street, Tooltown, TX 12345.</p>
+        </div>
+        <div class="section contact">
+            <h2>Contact Information</h2>
+            <p>You can reach us at:</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@kjaservicecentre.com</p>
+        </div>
+        <div class="section rating">
+            <h2>Ratings</h2>
+            <p>We value your feedback! Please leave a rating and review of our services.</p>
+            <!-- Placeholder for a rating form or widget -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 KJA Service Centre. All rights reserved.</p>
+    </footer>
+</body>
+</html>
